@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
+
+#my-container {
+  /* border: 2px solid red !important; */
+}
+
+.header-image {
+  /* border: 2px solid red !important; */
+}
+
+.navbar-nav {
+  /* border: 2px solid red !important; */
+}
+
+.navbar-toggler {
+  background-color: #000000;
+  /* border: 2px solid red !important; */
+}
+
+nav::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 5rem;
+  z-index: -1;
+  box-shadow: rgb(136, 136, 136) 3px 3px 3px;
+  background: rgb(203, 203, 203);
+}
+
+.nav-item {
+  margin-right: 4rem;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+ul {
+  font-size: 1rem;
+}
+
+a:focus {
+  color: rgb(207, 0, 0) !important;
+}
+
+a:hover {
+  color: rgb(207, 0, 0) !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  #header-image {
+    width: calc(100% - 10%);
+    height: calc(100% - 10%);
+  }
+
+  .navbar {
+    background-color:rgb(203, 203, 203) !important;
+  }
+
+  .nav-link {
+    color: rgb(211, 3, 3) !important;
+}
+
+a:focus {
+  color: rgb(255, 255, 255) !important;
+}
+
+}
+
+@media (max-width: 425px) {
+  #header-image {
+    width: calc(100% - 20%);
+    height: calc(100% - 20%);
+  }
+  nav::before {
+    visibility: hidden;
+  }
+
+  .navbar {
+    background-color: black !important;
+  }
+
+  .nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+
+a:focus {
+  color: rgb(211, 3, 3) !important;
+}
+
+}
