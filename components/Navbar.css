@@ -1,21 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
 
-#my-container {
-  /* border: 2px solid red !important; */
-}
-
-.header-image {
-  /* border: 2px solid red !important; */
-}
-
-.navbar-nav {
-  /* border: 2px solid red !important; */
-}
 
 .navbar-toggler {
   background-color: #000000;
-  /* border: 2px solid red !important; */
 }
 
 nav::before {

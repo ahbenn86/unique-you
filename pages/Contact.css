@@ -1,0 +1,14 @@
+.contact-form-container {
+    width: 50vw;
+}
+
+.contact-btn {
+    background-color: #cd0000;
+    border: #850000;
+}
+
+@media (max-width: 768px) {
+    .contact-form-container {
+        width: 88vw;
+    }    
+}
