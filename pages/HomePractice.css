@@ -1,0 +1,54 @@
+p {
+    background-color: rgb(152, 152, 152);
+    color: white;
+}
+
+p::before {
+  content: "";
+  position: absolute;
+  background: black;
+  width: 36%;
+  height: 18rem;
+  transform: translateY(-3rem);
+  z-index: -1;
+}
+
+.red-square {
+ width: 20rem;
+ height: 20rem;
+ transform: translateY(-3rem);
+}
+
+.jumping-woman {
+    animation: hover 3s infinite;
+}
+
+
+  
+  @keyframes flyInLeft {
+    0% {
+      transform: translateX(-500px);
+    }
+    100% {
+    }
+  }
+  
+  @keyframes flyInRight {
+    0% {
+      transform: translateX(500px);
+    }
+    100% {
+    }
+  }
+  
+  @keyframes hover {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }

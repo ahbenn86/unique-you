@@ -18,6 +18,11 @@ nav::before {
   background: rgb(203, 203, 203);
 }
 
+.font-home-ico {
+  font-size: 1.5rem;
+  color: rgb(207, 0, 0);
+}
+
 .nav-item {
   margin-right: 4rem;
 }

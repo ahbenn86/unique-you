@@ -1,0 +1,45 @@
+.footer {
+    background-color: rgb(123, 25, 25);
+   
+}
+
+.footer-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav a:hover{
+    text-decoration: underline;
+}
+
+.footer-nav li {
+    list-style: none;
+}
+
+@media (max-width: 1024px) {
+    .footer-nav {
+        width: 100% !important;
+    }
+  }
+
+@media (max-width: 500px) {
+    .footer-nav {
+        display: none !important;
+    }
+
+    .footer-symbol {
+        display: none;
+    }
+
+    .btn-grp-link{
+        text-decoration: none;
+        color: rgb(161, 0, 0);
+
+    }
+  }
+
+@media (min-width: 500px) {
+    .btn-group {
+        display: none !important;
+    }
+  }
