@@ -1,142 +1,59 @@
-.jumping-woman {
+
+p {
+    background-color: rgb(238, 237, 237);
+    color: rgb(0, 0, 0);
+}
+
+.paragraph-home::before {
+  content: "";
   position: absolute;
-  top: 7rem;
-  left: 16rem;
-  animation: hover 3s infinite;
-  translate: 15rem;
-  z-index: 10;
-  
-}
-/* Interfering with mobile woman */
-@media (max-width: 1500px) {
-  .jumping-woman {
-    left: 0;
-    padding-left: 8rem;
-  }
-
-  .paragraph-text {
-    position: absolute;
-    top: 8rem !important;
-    right: 0rem !important;
-    width: 40rem;
-    height: 25rem;
-    background: white;
-  }
+  background: black;
+  width: 36%;
+  height: 18rem;
+  transform: translateY(-3rem);
+  z-index: -1;
 }
 
-/* Interfering with mobile view */
-@media (max-width: 1100px) { 
 
-
-  .black-rect {
-    display: none;
-  }
-
-  .red-rect {
-    display: none;
-  }
-
-  .red-square {
-    left: 0 !important;
-    z-index: 1;
-  }
-
-  .jumping-woman {
-    /*Jumping woman needs to be able to move to the left here*/
-    left: 0 !important;
-    width: calc(100% - 75%);
-    height: calc(100% -75%);
-  }
-
-}
-
-@media (max-width: 800px) {
-
+.jumping-woman {
+    animation: hover 3s infinite;
 }
 
 @media (max-width: 500px) {
-  .jumping-woman {
-    width: calc(100% - 60%);
-    height: calc(100% - 60%);
-    left: 0;
-  }
-
-  .non-mobile {
-    display: none !important;
-  }
-}
-
-/*Non-mobile*/
-@media (min-width: 500px) {
-  .mobile-view {
+  /* .jumping-woman {
     display: none;
   }
 
-  .elements-container {
-    position: relative;
-  }
-
-  .red-rect {
-    top: 3rem;
-    position: absolute;
-  }
-
-  .black-rect {
-    position: absolute;
-    left: 3rem;
-  }
-
   .red-square {
-    position: absolute;
-    left: 20rem;
-    top: 11rem;
-  }
-
-  /* section::after{
-    content:'';
-    position: absolute;
-    top: 15rem;
-    right: 15rem;
-    background: black;
-    width: 40rem;
-    height: 20rem;
-    z-index: -1;
+    display: none;
   } */
-
-  .paragraph-text {
-    position: absolute;
-    top: 5rem;
-    right: 20rem;
-    width: 40rem;
-    height: 25rem;
-    background: white;
-  }
 }
 
-@keyframes flyInLeft {
-  0% {
-    transform: translateX(-500px);
+  
+  @keyframes flyInLeft {
+    0% {
+      transform: translateX(-500px);
+    }
+    100% {
+    }
   }
-  100% {
+  
+  @keyframes flyInRight {
+    0% {
+      transform: translateX(500px);
+    }
+    100% {
+    }
   }
-}
-
-@keyframes flyInRight {
-  0% {
-    transform: translateX(500px);
+  
+  @keyframes hover {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
-  100% {
-  }
-}
-
-@keyframes hover {
-  0% {
-    transform: translateY(-20px);
-  }
-  50% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
-}

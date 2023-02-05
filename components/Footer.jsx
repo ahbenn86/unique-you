@@ -5,7 +5,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer
-      className="container-fluid fixed-bottom d-flex align-items-center footer mb-3"
+      className="container-fluid sticky-bottom d-flex align-items-center footer"
       style={{ minHeight: "9vh" }}
     >
       <img className="image-fluid" src="/assets/small-logo.svg" alt="#" />

@@ -1,3 +1,4 @@
+import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "/components/Navbar";
 import Home from "/pages/Home";
@@ -8,9 +9,8 @@ import Seo from "/pages/Seo";
 import Branding from "/pages/Branding";
 import About from "/pages/About";
 import Contact from "/pages/Contact";
-import "./App.css";
 import Footer from "/components/Footer";
-import HomePractice from "../pages/HomePractice";
+
 
 function App() {
   return (
@@ -18,8 +18,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          {/* <Route exact path="/" element={<Home />}></Route> */}
-          <Route exact path="/" element={<HomePractice />}></Route>
+          <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/services" element={<Services />}></Route>
           <Route exact path="/our-work" element={<Work />}></Route>
           <Route exact path="/squarespace" element={<Squarespace />}></Route>

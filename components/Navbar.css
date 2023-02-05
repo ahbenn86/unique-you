@@ -1,12 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
-
 
 .navbar-toggler {
   background-color: #000000;
 }
 
-nav::before {
+.navbar::before {
   content: "";
   position: absolute;
   top: 0%;
@@ -25,10 +22,6 @@ nav::before {
 
 .nav-item {
   margin-right: 4rem;
-}
-
-.nav-link {
-  color: black !important;
 }
 
 ul {
