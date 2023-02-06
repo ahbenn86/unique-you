@@ -1,59 +1,108 @@
-
 p {
-    background-color: rgb(238, 237, 237);
-    color: rgb(0, 0, 0);
+  background-color: rgb(238, 237, 237);
+  color: rgb(0, 0, 0);
 }
 
 .paragraph-home::before {
   content: "";
   position: absolute;
   background: black;
-  width: 36%;
+  width: 34%;
   height: 18rem;
   transform: translateY(-3rem);
   z-index: -1;
 }
 
-
 .jumping-woman {
-    animation: hover 3s infinite;
+  animation: hover 3s infinite;
 }
 
 @media (max-width: 500px) {
-  /* .jumping-woman {
-    display: none;
+  .jumping-woman {
+    position: absolute;
+    left: 25%;
+    width: calc(100% - 70%);
+    height: calc(100% - 70%);
   }
 
   .red-square {
-    display: none;
-  } */
+    position: relative;
+    left: 25%;
+    width: calc(100% - 50%);
+    height: calc(100% - 50%);
+  }
+
+  .paragraph-home::before {
+    content: "";
+    position: absolute;
+    background: black;
+    width: 84%;
+    height: 18rem;
+    transform: translateY(-3rem);
+    z-index: -1;
+  }
 }
 
-  
-  @keyframes flyInLeft {
-    0% {
-      transform: translateX(-500px);
-    }
-    100% {
-    }
+@media (min-width: 500px) {
+  .jumping-woman {
+    position: relative;
+    left: 17%;
+    top: -22rem;
+  }
+
+  .red-square {
+    position: relative;
+    left: 10%;
+    top: 5%;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  .jumping-woman {
+    position: relative;
+    top: -55%;
+    left: 5%;
+    width: calc(100% -60%);
+    height: calc(100% - 60%);
+  }
+
+  .red-square {
+    width: calc(100% - 30%);
+    height: calc(100% - 30%);
   }
   
-  @keyframes flyInRight {
-    0% {
-      transform: translateX(500px);
-    }
-    100% {
-    }
+}
+
+@media screen and (min-width: 2500px) {
+  .paragraph-home::before {
+    width: 25%;
   }
-  
-  @keyframes hover {
-    0% {
-      transform: translateY(-20px);
-    }
-    50% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateY(-20px);
-    }
+}
+
+@keyframes flyInLeft {
+  0% {
+    transform: translateX(-500px);
   }
+  100% {
+  }
+}
+
+@keyframes flyInRight {
+  0% {
+    transform: translateX(500px);
+  }
+  100% {
+  }
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}

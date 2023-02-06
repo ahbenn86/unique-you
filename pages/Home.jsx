@@ -9,12 +9,12 @@ function Home() {
           <div className="col-sm-6">
             <img
               src="/assets/red-cmp-square-1.svg"
-              className="img-fluid position-absolute red-square my-5"
+              className="img-fluid  red-square my-5"
               alt="#"
             />
             <img
               src="/assets/jumping-woman.svg"
-              className="img-fluid jumping-woman position-absolute mx-5"
+              className="img-fluid jumping-woman  mx-5"
               alt="#"
             />
           </div>
@@ -24,7 +24,7 @@ function Home() {
             </h1>
             <p className="mt-4 p-4 shadow rounded paragraph-home">
               Welcome to Unique You. An agency that caters to the uniqueness of
-              you! Behind every business is a unique individual. Your business
+              you! Behind every business there's a unique individual and your business
               has specific needs and a brand that carries its own unique identity.
               Perhaps you haven't yet found that identity and aren't sure which
               direction to go, what to do, or simply looking for professional

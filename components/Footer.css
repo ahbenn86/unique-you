@@ -49,3 +49,10 @@
         display: none !important;
     }
   }
+
+  @media screen and (max-width: 800px) and (min-width: 500px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+  } 
