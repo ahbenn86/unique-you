@@ -9,7 +9,9 @@ import Seo from "/pages/Seo";
 import Branding from "/pages/Branding";
 import About from "/pages/About";
 import Contact from "/pages/Contact";
+import Workshops from "/pages/Workshops";
 import Footer from "/components/Footer";
+
 
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
           <Route exact path="/branding" element={<Branding />}></Route>
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/contact" element={<Contact />}></Route>
+          <Route exact path="/workshops" element={<Workshops />}></Route>
         </Routes>
         <Footer/>
       </div>

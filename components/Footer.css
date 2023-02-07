@@ -50,7 +50,7 @@
     }
   }
 
-  @media screen and (max-width: 800px) and (min-width: 500px) {
+  @media all {
     .footer {
         position: fixed;
         bottom: 0;

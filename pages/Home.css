@@ -1,6 +1,5 @@
-p {
+.paragraph-home {
   background-color: rgb(238, 237, 237);
-  color: rgb(0, 0, 0);
 }
 
 .paragraph-home::before {
@@ -70,7 +69,12 @@ p {
     width: calc(100% - 30%);
     height: calc(100% - 30%);
   }
-  
+}
+
+@media (min-width: 800px) {
+html {
+  overflow: hidden;
+}
 }
 
 @media screen and (min-width: 2500px) {

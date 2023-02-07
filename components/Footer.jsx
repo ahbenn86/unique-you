@@ -8,7 +8,7 @@ function Footer() {
       className="container-fluid sticky-bottom d-flex align-items-center footer"
       style={{ minHeight: "9vh" }}
     >
-      <img className="image-fluid" src="/assets/small-logo.svg" alt="#" />
+      <img className="image-fluid" src="/assets/footer/small-logo.svg" alt="#" />
       <div className="container-fluid d-flex flex-md-column align-items-center">
       <nav className="container-fluid  d-flex justify-content-evenly footer-nav w-50">
         <li>
@@ -46,7 +46,7 @@ function Footer() {
       <span className="mt-sm-3" style={{color: "white", fontSize: "smaller"}}>Unique You © ™ 2023</span>
       </div>
       </div>
-      <img className="image-fluid footer-symbol" src="/assets/footer-symbol.svg" alt="#" />
+      <img className="image-fluid footer-symbol" src="/assets/footer/footer-symbol.svg" alt="#" />
       <div className="btn-group dropup">
         <button
           type="button"
@@ -54,7 +54,7 @@ function Footer() {
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          <img src="/assets/footer-symbol-2.svg" alt="" />
+          <img src="/assets/footer/footer-symbol-2.svg" alt="" />
         </button>
         <ul className="dropdown-menu">
           <li>
