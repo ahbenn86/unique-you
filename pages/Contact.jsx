@@ -9,12 +9,12 @@ function Contact() {
           How can we help your business ?
         </h3>
         <div className="mx-auto contact-form-container shadow-sm rounded p-4 fs-5 text-muted">
-          <form action="https://formsubmit.co/angelobennett86@gmail.com" method="POST">
+          <form action="https://formsubmit.co/14aa5b3b47339c397339ab7b23cf47eb" method="POST">
             {/* Honeypot */}
             <input type="text" name="_honey" style={{display: "none"}}/>
             {/* Disable Captcha */}
             <input type="hidden" name="_captcha" value="false"/>
-            <input type="hidden" name="_next" value="http://localhost:5173/success"/>
+            <input type="hidden" name="_next" value="https://www.unique-you.us/success"/>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
                 Full name

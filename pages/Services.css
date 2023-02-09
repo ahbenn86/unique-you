@@ -1,35 +1,48 @@
-
-.service-head-container{
+.service-head-container {
   position: relative;
-  
 }
 
 .service-head {
   position: relative;
 }
 
-  #wheel-4 {
-    position: absolute;
-    top: 34%;
-    left: 35%;
-    animation-name: spin;
-    animation-duration: 5000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
+#wheel-4 {
+  position: absolute;
+  top: 34%;
+  left: 35%;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  @keyframes spin {
-      from {
-          transform:rotate(0deg);
-      }
-      to {
-          transform:rotate(360deg);
-      }
+  to {
+    transform: rotate(360deg);
   }
+}
 
 @media (max-width: 500px) {
   .image-container {
     display: none !important;
+  }
+
+  #wheel-4 {
+    width: calc(100% - 70%) !important;
+    height: calc(100% - 70%) !important;
+  }
+
+  .service-head {
+    width: calc(100% - 40%) !important;
+    height: calc(100% - 40%) !important;
+  }
+
+  .service-head-container {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -52,3 +65,13 @@
   }
 }
 
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  #wheel-4 {
+    margin-left: 3.5rem;
+  }
+
+  .service-head-container {
+    display: flex;
+    justify-content: center;
+  }
+}
