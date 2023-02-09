@@ -1,5 +1,6 @@
 import "./Home.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -37,9 +38,11 @@ function Home() {
               non-disclosures so you can rest assured that your product and
               discussions are safe with us.
             </p>
-            <button className="btn btn-outline-primary mt-2" to="/services">
-              See our services
-            </button>
+            <Link to="/services">
+              <button className="btn btn-outline-primary mt-2" to="/services">
+                See our services
+              </button>
+            </Link>
           </div>
         </div>
       </div>

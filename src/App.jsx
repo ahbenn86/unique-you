@@ -11,6 +11,8 @@ import About from "/pages/About";
 import Contact from "/pages/Contact";
 import Workshops from "/pages/Workshops";
 import Footer from "/components/Footer";
+import Success from "/pages/Success";
+import Credits from "/pages/Credits";
 
 
 
@@ -29,6 +31,8 @@ function App() {
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/workshops" element={<Workshops />}></Route>
+          <Route exact path="/success" element={<Success />}></Route>
+          <Route exact path="/credits" element={<Credits />}></Route>
         </Routes>
         <Footer/>
       </div>

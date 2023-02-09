@@ -9,18 +9,23 @@ function Contact() {
           How can we help your business ?
         </h3>
         <div className="mx-auto contact-form-container shadow-sm rounded p-4 fs-5 text-muted">
-          <form>
+          <form action="https://formsubmit.co/angelobennett86@gmail.com" method="POST">
+            {/* Honeypot */}
+            <input type="text" name="_honey" style={{display: "none"}}/>
+            {/* Disable Captcha */}
+            <input type="hidden" name="_captcha" value="false"/>
+            <input type="hidden" name="_next" value="http://localhost:5173/success"/>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
                 Full name
               </label>
-              <input type="text" className="form-control" id="name" required />
+              <input type="text" name="text" className="form-control" id="name" required />
             </div>
             <div className="mb-3">
               <label htmlFor="phone" className="form-label">
                 Contact number
               </label>
-              <input type="text" className="form-control" id="phone" />
+              <input type="tel" name="tel" className="form-control" id="phone" />
             </div>
             <div className="mb-3">
               <label htmlFor="email" className="form-label">
@@ -28,6 +33,7 @@ function Contact() {
               </label>
               <input
                 type="email"
+                name="email"
                 className="form-control"
                 id="email"
                 required
@@ -44,6 +50,7 @@ function Contact() {
                 className="form-select"
                 id="time"
                 aria-label="Best time to contact"
+                name="select"
               >
                 <option value="M">Morning</option>
                 <option value="A">Afternoon</option>

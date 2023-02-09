@@ -16,7 +16,7 @@ function Services() {
                 className="img-fluid service-head"
               />
               <img
-                src="/assets/services/wheel-4.png"
+                src="/assets/services/wheel-4.svg"
                 className="img-fluid"
                 id="wheel-4"
                 style={{ width: "5.5rem", height: "5.5rem" }}
@@ -56,8 +56,8 @@ function Services() {
                     src="/assets/services/workshop.svg"
                     className="img-fluid"
                     style={{ width: "12rem", height: "12rem" }}
-                    alt=""
-                    title="https://pngtree.com/so/Network"
+                    alt="#"
+                    title="#"
                   />
                 </Link>
               </div>

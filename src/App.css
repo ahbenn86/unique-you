@@ -5,6 +5,19 @@ p {
     color: black;
 }
 
+.credits {
+  text-decoration: none;
+  margin-top: .8rem;
+  margin-left: 2rem;
+  font-size: smaller;
+  color: gray;
+}
+
+.credits:hover {
+  text-decoration: none;
+  color: red !important;
+}
+
 @media (max-width: 500px) {
    p {
     font-size: .9rem;
