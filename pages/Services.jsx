@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Services() {
   return (
     <>
-      <div className="container my-5">
+      <div className="container my-5 .paragraph-services">
         <div className="row">
           <div className="col-lg-3">
             <div className="service-head-container">
@@ -45,7 +45,7 @@ function Services() {
                 </Link>
                 <Link to="/seo">
                   <img
-                    src="/assets/services/seo.svg"
+                    src="/assets/services/seo_opt.svg"
                     className="img-fluid"
                     style={{ width: "12rem", height: "12rem" }}
                     alt=""
@@ -81,7 +81,7 @@ function Services() {
                   </div>
                   <div className="carousel-item">
                     <img
-                      src="/assets/services/seo.svg"
+                      src="/assets/services/seo_opt.svg"
                       style={{ width: "12rem", height: "12rem" }}
                       className="d-block w-100"
                       alt="..."
@@ -97,7 +97,7 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <p>
+              <p className="mt-4 p-4 shadow rounded paragraph-services">
                 We offer a host of different services from regular website
                 maintenance and enhancements to one-on-one{" "}
                 <Link to="/workshops" style={{ textDecoration: "none" }}>

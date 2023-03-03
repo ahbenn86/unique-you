@@ -9,7 +9,7 @@ function Footer() {
       style={{ minHeight: "9vh" }}
     >
       <img
-        className="image-fluid"
+        className="image-fluid small-logo"
         src="/assets/footer/small-logo.svg"
         alt="#"
       />
@@ -46,14 +46,14 @@ function Footer() {
             </NavLink>
           </li>
         </nav>
-        <div className="container d-flex justify-content-center">
+        <div className="container d-flex justify-content-center align-items-center">
           <span
-            className="mt-sm-3"
+            className="mt-sm-3 "
             style={{ color: "white", fontSize: "smaller" }}
           >
             Unique You © ™ 2023
           </span>
-          <Link to="/credits" className="credits">
+          <Link to="/credits" className="credits ">
             <span>
               Image Credits
             </span>

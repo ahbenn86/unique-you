@@ -40,6 +40,10 @@
     transform: translateY(-3rem);
     z-index: -1;
   }
+
+  .home-container {
+    margin-bottom: 7rem !important;
+  }
 }
 
 @media (min-width: 500px) {
@@ -72,9 +76,9 @@
 }
 
 @media (min-width: 800px) {
-html {
+/* html {
   overflow: hidden;
-}
+} */
 }
 
 @media screen and (min-width: 2500px) {
