@@ -15,7 +15,7 @@
   list-style: none;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 850px) {
   .footer {
     position: fixed !important;
     bottom: 0 !important;
@@ -45,21 +45,11 @@
     width: calc(100% - 90%);
     height: calc(100% - 90%);
   }
-
-  .credits {
-    
-  }
+  
 }
 
 @media (min-width: 500px) {
   .btn-group {
     display: none !important;
-  }
-}
-
-@media all {
-  .footer {
-    position: fixed;
-    bottom: 0;
   }
 }

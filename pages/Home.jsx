@@ -30,7 +30,7 @@ function Home() {
               unique identity. Perhaps you haven't yet found that identity and
               aren't sure which direction to go, what to do, or simply looking
               for professional guidance. Maybe you have a product to sell and
-              need help to create a logo? Perhaps you have a logo but you need a
+              need help creating a logo? Perhaps you have a logo but you need a
               website? Maybe you have a website and you would like it to look
               better. Unique You is here to solve those problems and much more.
               We offer professional design, branding, and web development

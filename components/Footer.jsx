@@ -27,7 +27,7 @@ function Footer() {
           </li>
           <li>
             <NavLink to="/squarespace" aria-current="page">
-              Squarespace
+              Wordpress
             </NavLink>
           </li>
           <li>

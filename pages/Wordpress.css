@@ -1,0 +1,42 @@
+.paragraph-cms {
+  background-color: #eeeded;
+}
+
+.p-backdrop {
+  position: absolute;
+  background: #500606;
+  width: 68%;
+  height: 7rem;
+  margin: 3rem;
+  transform: translateY(-3rem);
+  z-index: -1;
+}
+
+@media (max-width: 650px) {
+  .cms-container {
+    position: relative;
+    top: 20vh;
+  }
+
+  .paragraph-row {
+    position: relative;
+    top: 4rem;
+  }
+}
+
+@media screen and (max-width: 1040px) and (min-width: 650px) {
+  .cms-container {
+    position: relative;
+    top: 10vh;
+  }
+  .paragraph-row {
+    position: relative;
+    top: 4rem;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+    .p-backdrop {
+        width: 50%;
+    }
+  }

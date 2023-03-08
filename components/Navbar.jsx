@@ -23,7 +23,7 @@ function Navbar() {
           <NavLink className="nav-link" to="/our-work" style={{color: "black"}}>Our Work</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/squarespace" style={{color: "black"}}>Squarespace</NavLink>
+          <NavLink className="nav-link" to="/wordpress" style={{color: "black"}}>Wordpress</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/seo" style={{color: "black"}}>SEO</NavLink>

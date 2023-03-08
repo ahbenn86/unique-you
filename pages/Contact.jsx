@@ -14,7 +14,7 @@ function Contact() {
             <input type="text" name="_honey" style={{display: "none"}}/>
             {/* Disable Captcha */}
             <input type="hidden" name="_captcha" value="false"/>
-            <input type="hidden" name="_next" value="http://www.unique-you.us/success"/>
+            <input type="hidden" name="_next" value="http://unique-you.us/success"/>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
                 Full name
