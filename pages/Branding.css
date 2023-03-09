@@ -1,0 +1,33 @@
+.carousel {
+    padding: 5rem;
+    color: #fff;
+    height: 100vh;
+}
+
+.box {
+    
+    height: 18.75rem;
+}
+
+.box h3 {
+    text-align: center;
+}
+
+.slick-slide div {
+    margin: 0 1rem;
+}
+
+.slick-dots li.slick-active button:before {
+    color: lightgreen;
+}
+
+.slick-dots li button:before {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    top: 2rem !important;
+}
+
+.slick-arrow .slick-prev .slick-next {
+    color: #000000 !important;
+    background: #000000 !important;
+}

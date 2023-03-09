@@ -14,7 +14,7 @@
 
 @media (max-width: 650px) {
   .cms-container {
-    position: relative;
+    position: sticky;
     top: 20vh;
   }
 

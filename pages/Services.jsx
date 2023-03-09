@@ -27,9 +27,9 @@ function Services() {
           <div className="col-lg-9">
             <div className="p-5">
               <div className="image-container d-flex justify-content-evenly mb-5">
-                <Link to="/squarespace">
+                <Link to="/wordpress">
                   <img
-                    src="/assets/services/squarespace-logo-vector.svg"
+                    src="/assets/wordpress-logo.svg"
                     className="img-fluid"
                     style={{ width: "12rem", height: "12rem" }}
                     alt=""

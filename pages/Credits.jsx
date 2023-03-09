@@ -13,6 +13,9 @@ function Credits() {
     <div>
         <a href='https://pngtree.com/freepng/network-classroom-teacher-online-lecture_6184731.html?sol=downref&id=bef'>teacher online lecture PNG Designed By 雾山的鹤</a>
     </div>
+    <div>
+    <a href="https://www.freepik.com/free-vector/businesswoman-set-with-different-postures_2881076.htm#query=black%20business%20woman%20character&position=23&from_view=search&track=ais">Image by pikisuperstar</a> on Freepik
+    </div>
     </div>
     </>
   )
