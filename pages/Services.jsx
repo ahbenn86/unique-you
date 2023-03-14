@@ -16,7 +16,7 @@ function Services() {
                 className="img-fluid service-head"
               />
               <img
-                src="/assets/services/wheel-4.svg"
+                src="/assets/services/wheel-4.svg" 
                 className="img-fluid"
                 id="wheel-4"
                 style={{ width: "5.5rem", height: "5.5rem" }}
@@ -97,6 +97,7 @@ function Services() {
                   </div>
                 </div>
               </div>
+              <div className="d-flex flex-wrap justify-content-center">
               <p className="mt-4 p-4 shadow rounded paragraph-services">
                 We offer a host of different services from regular website
                 maintenance and enhancements to one-on-one{" "}
@@ -108,6 +109,12 @@ function Services() {
                 creating the logo for your brand and ensuring that your business
                 is found within search results such as Google.
               </p>
+              <Link to="/contact">
+              <button className="btn btn-outline-primary mt-2" to="/services">
+                Contact Us
+              </button>
+            </Link>
+              </div>
             </div>
           </div>
         </div>

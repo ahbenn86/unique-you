@@ -2,7 +2,7 @@
   background-color: #eeeded;
 }
 
-.p-backdrop {
+/* .p-backdrop {
   position: absolute;
   background: #500606;
   width: 68%;
@@ -10,7 +10,7 @@
   margin: 3rem;
   transform: translateY(-3rem);
   z-index: -1;
-}
+} */
 
 @media (max-width: 650px) {
   .cms-container {
