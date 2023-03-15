@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Branding() {
   return (
     <>
-    <div className="container-lg my-4 min-vh-100 cms-container">
+    <div className="container-lg my-4 min-vh-100">
         <div className="row mb-5">
           <div class="col-12 d-flex justify-content-evenly">
             <div>

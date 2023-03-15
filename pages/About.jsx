@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function About() {
   return (
     <>
-    <div className='container'>
+    <div className='container min-vh-100'>
       <div className='row d-flex align-items-center'>
         <div className='col-md-6'>
         <img src="/assets/under-construction.svg" className="img-fluid" style={{height: "40rem", width: "40rem" }} alt="" title='#' />

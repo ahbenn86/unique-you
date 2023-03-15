@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Services() {
   return (
     <>
-      <div className="container my-5 .paragraph-services">
+      <div className="container my-5 min-vh-100 .paragraph-services">
         <div className="row">
           <div className="col-lg-3">
             <div className="service-head-container">
