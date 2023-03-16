@@ -1,0 +1,12 @@
+.about-section {
+    margin-top: 6rem !important;
+}
+
+
+
+@media (max-width: 800px) {
+    .about-text-container {
+        width: 100%
+    }
+}
+  
