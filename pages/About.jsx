@@ -1,10 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 import './About.css'
 
 function About() {
   return (
     <>
+    <Helmet>
+        <title>About Us | Web development and branding | New York, NY.</title>
+        <meta name="description" content="We are a web development and branding agency in Long Island City, New York. We provide web development and marketing services to businesses of all sizes."/>
+        <meta name="keywords" content="Website, Development, Design, Branding, Marketing, Workshops"/>
+      </Helmet>
     <div className='container min-vh-100'>
       <div className='row d-flex justify-content-center flex-lg-row flex-sm-column align-items-center about-section'>
         <div className='col-md-6 mb-5'>

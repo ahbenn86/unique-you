@@ -1,10 +1,16 @@
 import "./Home.css";
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <>
+    <Helmet>
+        <title>Unique You | Website and Brand Development | New York, NY.</title>
+        <meta name="description" content="We provide website development, branding, logo design & SEO services. Contact us for a free web analysis report."/>
+        <meta name="keywords" content="Squarespace, Wordpress, Website, Development, SEO, Logo, Brand, Design, Workshops"/>
+      </Helmet>
       <div className="container my-5 min-vh-100 home-container">
         <div className="row">
           <div className="col-sm-6">

@@ -95,11 +95,11 @@ function Footer() {
           </li>
           <li>
             <NavLink
-              to="/squarespace"
+              to="/wordpress"
               aria-current="page"
               className="btn-grp-link ps-2"
             >
-              Squarespace
+              Wordpress
             </NavLink>
           </li>
           <li>

@@ -1,10 +1,16 @@
 import React from "react";
 import "./Services.css";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 function Services() {
   return (
     <>
+      <Helmet>
+        <title>Services | Squarespace | Wordpress | SEO | New York, NY.</title>
+        <meta name="description" content="We can build your Squarespace and WordPress website or build your website with logo design and SEO."/>
+        <meta name="keywords" content="Squarespace, Wordpress, Website, SEO, Logo, Brand, Design, Workshops"/>
+      </Helmet>
       <div className="container my-5 min-vh-100 .paragraph-services">
         <div className="row">
           <div className="col-lg-3">

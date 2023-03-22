@@ -1,10 +1,16 @@
 import React from 'react'
 import './Work.css'
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 
 function Work() {
   return (
     <>
+    <Helmet>
+        <title>Our Work | Previous web development projects | New York, NY.</title>
+        <meta name="description" content="View some of our previous projects. From restaurants and retail to e-commerce. We can build, design, or enhance any website for any industry."/>
+        <meta name="keywords" content="Restaurants, Retail, E-commerce, Unique, Website, Development"/>
+      </Helmet>
       <div className="bg-light mt-3 page-container">
         <div className='container-lg' >
           <div className='text-center'>

@@ -1,9 +1,15 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 
 function Branding() {
   return (
     <>
+    <Helmet>
+        <title>Branding & Logo Design | Web Development | New York, NY.</title>
+        <meta name="description" content="We create unique, memorable logos and branding that help your business stand out from the crowd. Let us help you make a lasting impression."/>
+        <meta name="keywords" content="Unique, Logo, Design, Branding, Website, Development"/>
+      </Helmet>
     <div className="container-lg my-4 min-vh-100">
         <div className="row mb-5">
           <div class="col-12 d-flex justify-content-evenly">

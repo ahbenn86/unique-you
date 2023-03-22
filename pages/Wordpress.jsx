@@ -1,10 +1,16 @@
 import React from "react";
 import './Wordpress.css'
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 function Wordpress() {
   return (
     <>
+      <Helmet>
+        <title>Wordpress and Squarespace | Web Development | New York, NY.</title>
+        <meta name="description" content="We can build you a custom WordPress or Squarespace website and teach you how to later change, edit, and add content to your site yourself."/>
+        <meta name="keywords" content="Wordpress, Squarespace, Unique, Website, Development"/>
+      </Helmet>
       <div className="container-lg my-5 min-vh-100 cms-container">
         <div className="row mb-5">
           <div class="col-12 d-flex justify-content-evenly">

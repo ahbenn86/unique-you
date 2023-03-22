@@ -1,9 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./Contact.css";
 
 function Contact() {
   return (
     <div>
+      <Helmet>
+        <title>Contact Us | Contact form | Web development | New York, NY.</title>
+        <meta name="description" content="Reach out to us to discuss how we can improve your business and enhance your presence in the web space. Request your free web analysis report today!"/>
+        <meta name="keywords" content="Contact, Logo, Design, Branding, Website, Analysis"/>
+      </Helmet>
       <div className="container vh-100">
         <h3 className="text-center text-muted pt-4 lh-2">
           How can we help your business ?
@@ -14,7 +20,7 @@ function Contact() {
             <input type="text" name="_honey" style={{display: "none"}}/>
             {/* Disable Captcha */}
             <input type="hidden" name="_captcha" value="false"/>
-            <input type="hidden" name="_next" value="http://unique-you.us/success"/>
+            <input type="hidden" name="_next" value="https://unique-you.us/success"/>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
                 Full name
