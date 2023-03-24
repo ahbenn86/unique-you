@@ -1,4 +1,4 @@
-*.txt
+
 
 # Logs
 logs
@@ -26,3 +26,4 @@ dist-ssr
 *.sw?
 components/Card.css
 components/Card.jsx
+

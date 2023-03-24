@@ -11,9 +11,9 @@ function Contact() {
         <meta name="keywords" content="Contact, Logo, Design, Branding, Website, Analysis"/>
       </Helmet>
       <div className="container vh-100">
-        <h3 className="text-center text-muted pt-4 lh-2">
+        <h1 className="text-center text-muted lh-2 fs-3">
           How can we help your business ?
-        </h3>
+        </h1>
         <div className="mx-auto contact-form-container shadow-sm rounded p-4 fs-5 text-muted">
           <form action="https://formsubmit.co/14aa5b3b47339c397339ab7b23cf47eb" method="POST">
             {/* Honeypot */}

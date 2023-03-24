@@ -7,7 +7,7 @@ function Seo() {
     <div className='container min-vh-100'>
       <div className='row d-flex align-items-center'>
         <div className='col-md-6'>
-        <img src="/assets/under-construction.svg" className="img-fluid" style={{height: "40rem", width: "40rem" }} alt="" />
+        <img src="/assets/under-construction.svg" className="img-fluid" style={{height: "30rem", width: "30rem" }} alt="under construction" />
         </div>
         <div className='col-md-6'>
         <p>This page is under construction. Please reach us by using our contact form to inquire about this service. Thank you.</p>

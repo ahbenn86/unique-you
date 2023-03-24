@@ -15,14 +15,18 @@ function Home() {
         <div className="row">
           <div className="col-sm-6">
             <img
+              width={327} 
+              height={312}
               src="/assets/home/red-cmp-square-1.svg"
               className="img-fluid  red-square my-5"
-              alt="#"
+              alt=""
             />
             <img
+              width={227} 
+              height={379}
               src="/assets/home/jumping-woman.svg"
               className="img-fluid jumping-woman  mx-5"
-              alt="#"
+              alt="Excited cartoon woman jumping in the air happy that she found the unique you website"
             />
           </div>
           <div className="col-sm-6 d-flex flex-column align-items-center">

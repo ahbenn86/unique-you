@@ -6,8 +6,17 @@
   position: relative;
 }
 
+h1:first-of-type {
+  margin: 0 !important;
+  margin-top: -1rem !important;
+}
+
 .paragraph-services {
   background-color: rgb(238, 237, 237);
+}
+
+.external-link {
+  text-decoration: none;
 }
 
 .paragraph-services::before {

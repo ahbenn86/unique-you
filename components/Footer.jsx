@@ -9,6 +9,8 @@ function Footer() {
       style={{ minHeight: "9vh" }}
     >
       <img
+        width={73}
+        height={65}
         className="image-fluid small-logo"
         src="/assets/footer/small-logo.svg"
         alt="#"
@@ -64,6 +66,8 @@ function Footer() {
         className="image-fluid footer-symbol"
         src="/assets/footer/footer-symbol.svg"
         alt="#"
+        width={58} 
+        height={62}
       />
       <div className="btn-group dropup">
         <button
@@ -72,7 +76,7 @@ function Footer() {
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          <img src="/assets/footer/footer-symbol-2.svg" alt="" />
+          <img src="/assets/footer/footer-symbol-2.svg" alt="" width={18} height={18}/>
         </button>
         <ul className="dropdown-menu">
           <li>

@@ -12,26 +12,26 @@ function Wordpress() {
         <meta name="keywords" content="Wordpress, Squarespace, Unique, Website, Development"/>
       </Helmet>
       <div className="container-lg my-5 min-vh-100 cms-container">
-        <div className="row mb-5">
+        <div className="row">
           <div class="col-12 d-flex justify-content-evenly">
             <div>
-              <img className='img-fluid' src="/assets/wordpress-logo.svg" alt="" />
+              <img className='img-fluid' src="/assets/wordpress-logo.svg" alt="wordpress logo" />
             </div>
             <div>
               <img
                 className="img-fluid"
                 src="/assets/cms-business-woman.png"
-                alt=""
+                alt="Woman showing you the different cms options of wordpress or squarespace"
               />
             </div>
             <div>
-              <img className='img-fluid' src="/assets/Squarespace-Logo.svg" alt="" />
+              <img className='img-fluid' src="/assets/Squarespace-Logo.svg" alt="squarespace logo" />
             </div>
           </div>
         </div>
         <div className="row paragraph-row">
           <div class="col-12 d-flex flex-wrap justify-content-center">
-           <p className="mt-4 p-4 shadow rounded paragraph-cms">
+           <p className="p-4 shadow rounded paragraph-cms">
            Do you have a WordPress site that you need help designing? We can create the perfect WordPress website for you that will allow you to later edit as you see fit. Utilizing the latest plugins and templates to deliver a beautifully crafted website with a touch of custom flair. We also offer original customization from start to finish to display the <Link to="/contact" style={{textDecoration: 'none'}}>uniqueness</Link> of you and your business.
             </p>
             <Link to="/contact">

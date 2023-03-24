@@ -2,7 +2,9 @@
     margin-top: 6rem !important;
 }
 
-
+h1:first-of-type {
+    margin-top: 2rem !important;
+  }
 
 @media (max-width: 800px) {
     .about-text-container {

@@ -11,14 +11,14 @@ function Services() {
         <meta name="description" content="We can build your Squarespace and WordPress website or build your website with logo design and SEO."/>
         <meta name="keywords" content="Squarespace, Wordpress, Website, SEO, Logo, Brand, Design, Workshops"/>
       </Helmet>
-      <div className="container my-5 min-vh-100 .paragraph-services">
+      <div className="container my-3 min-vh-100 .paragraph-services">
         <div className="row">
           <div className="col-lg-3">
             <div className="service-head-container">
               <img
                 src="/assets/services/service-head.svg"
                 style={{ width: "20rem", height: "20rem" }}
-                alt="#"
+                alt="Blue human head with spinning wheel thinking of all the web development services it can offer you"
                 className="img-fluid service-head"
               />
               <img
@@ -30,8 +30,11 @@ function Services() {
               />
             </div>
           </div>
-          <div className="col-lg-9">
-            <div className="p-5">
+          <div className="col-lg-9 row">
+          <h1 className="fs-3 fw-light text-center">
+              Our services
+            </h1>
+            <div className="p-2">
               <div className="image-container d-flex justify-content-evenly mb-5">
                 <Link to="/wordpress">
                   <img
@@ -110,7 +113,7 @@ function Services() {
                 <Link to="/workshops" style={{ textDecoration: "none" }}>
                   workshops
                 </Link>
-                . We can enhance your current Squarespace or WordPress website
+                . We can enhance your current <a href="https://www.squarespace.com/" className="external-link" target="_blank">Squarespace</a> or <a href="https://wordpress.com/" className="external-link" target="_blank">WordPress</a> website
                 or create your very first website from the ground up along with
                 creating the logo for your brand and ensuring that your business
                 is found within search results such as Google.
