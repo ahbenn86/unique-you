@@ -26,7 +26,7 @@ function Work() {
               View some of our previous projects
             </h1>
           </div>
-          <div className="row my-5 align-items-center justify-content-center justify-content-around">
+          <div className="row my-4 align-items-center justify-content-center justify-content-around">
             <div className="col-8 col-lg-4 col-xl-3 mb-sm-5 mb-lg-0">
               <div className="card">
                 <div className="card-body text-center py-4">
