@@ -61,9 +61,9 @@ function Wordpress() {
               custom flair. We also offer original customization from start to
               finish to display the{" "}
               <Link to="/contact" style={{ textDecoration: "none" }}>
-                uniqueness
+                uniqueness of you
               </Link>{" "}
-              of you and your business.
+               and your business.
             </p>
             <Link to="/contact">
               <button className="btn btn-outline-primary mt-2" to="/services">
