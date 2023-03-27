@@ -1,0 +1,9 @@
+.seo-btn {
+    
+}
+
+@media (max-width: 500px) {
+    .seo-guy {
+        display: none;
+    }
+}
