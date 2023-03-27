@@ -59,8 +59,8 @@ h1:first-of-type {
   }
 
   .service-head {
-    width: calc(100% - 40%) !important;
-    height: calc(100% - 40%) !important;
+    width: calc(100% - 60%) !important;
+    height: calc(100% - 60%) !important;
   }
 
   .service-head-container {
@@ -69,13 +69,7 @@ h1:first-of-type {
   }
 
   .paragraph-services::before {
-    content: "";
-    position: absolute;
-    background: black;
-    width: 61%;
-    height: 18rem;
-    transform: translateY(-3rem);
-    z-index: -1;
+    display: none;
   }
 }
 

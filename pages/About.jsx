@@ -30,12 +30,12 @@ function About() {
             />
           </div>
           <div className="col-md-6  d-flex flex-wrap justify-content-center about-text-container">
-            <p className="">
-              Unique-You is a web development and branding agency located in
+            <p className="p-4 shadow rounded paragraph-cms">
+            <b><span style={{color: 'red'}}>Unique</span> You</b> is a web development and branding agency located in
               Long Island City, New York. Founded in 2023 by certified Full
               Stack Developer Angelo Bennett. The agency caters to entrepreneurs
               and businesses of all sizes to provide web development and
-              marketing services all under one roof. Unique-You also provides
+              marketing services all under one roof. <b><span style={{color: 'red'}}>Unique</span> You</b> also provides
               small grouped workshops to mentor and prepare future developers
               planning to enter the field of web and software development. You
               can find the founder{" "}

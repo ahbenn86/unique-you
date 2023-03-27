@@ -10,11 +10,11 @@ function Seo() {
         <title>SEO | Web Development | New York, NY.</title>
         <meta
           name="description"
-          content="We create unique, memorable logos and branding that help your business stand out from the crowd. Let us help you make a lasting impression."
+          content="Get the most out of your online presence with our keyword research, content optimization, link building, and more. Contact us today to learn more!"
         />
         <meta
           name="keywords"
-          content="Unique, Logo, Design, Branding, Website, Development"
+          content="SEO, Keyword, Research, Link Building, Ranking, Increase Profits"
         />
       </Helmet>
       <div className="container-lg my-4 min-vh-100">
