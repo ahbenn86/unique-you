@@ -13,12 +13,16 @@ import Workshops from "/pages/Workshops";
 import Footer from "/components/Footer";
 import Success from "/pages/Success";
 import Credits from "/pages/Credits";
+import Websites from "/pages/Websites";
+import ScrollToTop from "/components/ScrollToTop";
+
 
 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <div className="App">
         <Navbar />
         <Routes>
@@ -33,6 +37,7 @@ function App() {
           <Route exact path="/workshops" element={<Workshops />}></Route>
           <Route exact path="/success" element={<Success />}></Route>
           <Route exact path="/credits" element={<Credits />}></Route>
+          <Route exact path="/websites" element={<Websites />}></Route>
         </Routes>
         <Footer/>
       </div>

@@ -49,7 +49,7 @@ function Home() {
               discussions are safe with us.
             </p>
             <Link to="/services">
-              <button className="btn btn-outline-primary mt-2" to="/services">
+              <button className="btn btn-primary mt-2" to="/services">
                 See our services
               </button>
             </Link>

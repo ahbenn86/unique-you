@@ -1,24 +1,57 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Workshops() {
   return (
     <>
-    <div className='container min-vh-100'>
-      <div className='row d-flex align-items-center'>
-        <div className='col-md-6'>
-        <img src="/assets/under-construction.svg" className="img-fluid" style={{height: "25rem", width: "25rem" }} alt="" />
+      <Helmet>
+        <title>Workshops | Learn web development | New York, NY.</title>
+        <meta
+          name="description"
+          content="Thinking of becoming a developer? Our intimate small-grouped workshops will teach and guide you through the fundamentals of HTML, CSS, and JavaScript."
+        />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JavaScript, Problem-Solving, Error-Handling, Bootcamp, Resume, Online, Workshop"
+        />
+      </Helmet>
+      <div className="container-lg my-4 min-vh-100">
+        <h1 className="fs-3 fw-light text-center pb-3 mb-3">Our Workshops</h1>
+        <div className="row">
+          <div class="col-12 d-flex justify-content-evenly">
+            <div>
+              <video
+              ></video>
+            </div>
+          </div>
         </div>
-        <div className='col-md-6'>
-        <p>This page is under construction. Please reach us by using our contact form to inquire about this service. Thank you.</p>
-        <Link to="/contact">
-        <button className='btn btn-primary'>Contact us</button>
-        </Link>
+        <div className="row paragraph-row">
+          <div class="col-12 d-flex flex-wrap justify-content-center">
+            <p className="p-4 shadow rounded paragraph-cms">
+              Are you interested in learning web development and programming?
+              Our intimate small-grouped workshops will teach and guide you
+              through the fundamentals of HTML, CSS, and JavaScript. This
+              workshop is perfect for anyone thinking of getting into the field
+              of web development or software engineering. In this workshop, you
+              will also learn key skill traits of the field such as
+              problem-solving and error handling. By the end of this workshop,
+              you will have built an entire project using all 3 languages which
+              you can then present to your future Bootcamp, add to a resume or
+              just show off to your friends and family. Contact us to
+              receive the full workshop breakdown of topics covered along with our 
+              workshop newsletter.
+            </p>
+            <Link to="/contact">
+              <button className="btn btn-outline-primary mt-2" to="/services">
+                Contact Us
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
     </>
-  )
+  );
 }
 
-export default Workshops
+export default Workshops;

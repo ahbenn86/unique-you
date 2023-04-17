@@ -53,7 +53,7 @@ function Branding() {
               stands out from the competition.
             </p>
             <Link to="/contact">
-              <button className="btn btn-outline-primary mt-2" to="/services">
+              <button className="btn btn-primary mt-2" to="/services">
                 Contact Us
               </button>
             </Link>

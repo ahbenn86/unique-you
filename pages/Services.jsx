@@ -1,4 +1,9 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-cube";
+import "swiper/css/pagination";
+import { EffectCube, Pagination } from "swiper";
 import "./Services.css";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
@@ -17,120 +22,54 @@ function Services() {
           content="Squarespace, Wordpress, Website, Build, SEO, Logo, Brand, Design, Workshops"
         />
       </Helmet>
-      <div className="container my-3 min-vh-100 .paragraph-services">
-        <div className="row">
-          <div className="col-lg-3">
-            <div className="service-head-container">
+      <h1 className="fs-3 fw-light text-center">Our services</h1>
+      <div className="services-container">
+        <div className="services-section-1">
+        <img
+          src="/assets/services/services.gif"
+          style={{ width: "20rem", height: "15rem" }}
+          className="img-fluid services-gif"
+          alt=""
+        />
+        <div>
+          <Swiper
+            effect={"cube"}
+            grabCursor={true}
+            cubeEffect={{
+              shadow: true,
+              slideShadows: true,
+              shadowOffset: 20,
+              shadowScale: 0,
+            }}
+            pagination={true}
+            modules={[EffectCube, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
               <img
-                src="/assets/services/service-head.svg"
-                style={{ width: "20rem", height: "20rem" }}
-                alt="Blue human head with spinning wheel thinking of all the web development services it can offer you"
-                className="img-fluid service-head"
-                width={306}
-                height={320}
+                src="/assets/services/wordpress-logo.svg"
               />
+            </SwiperSlide>
+            <SwiperSlide>
               <img
-                src="/assets/services/wheel-4.svg"
-                className="img-fluid"
-                id="wheel-4"
-                style={{ width: "5.5rem", height: "5.5rem" }}
-                alt=""
-                width={88}
-                height={88}
+                src="/assets/services/smile-logo.svg"
               />
-            </div>
-          </div>
-          <div className="col-lg-9 row">
-            <h1 className="fs-3 fw-light text-center">Our services</h1>
-            <div className="p-2">
-              <div className="image-container d-flex justify-content-evenly mb-5">
-                <Link to="/wordpress">
-                  <img
-                    src="/assets/wordpress-logo.svg"
-                    className="img-fluid"
-                    style={{ width: "12rem", height: "12rem" }}
-                    alt="Wordpress logo"
-                    width={192}
-                    height={192}
-                  />
-                </Link>
-                <Link to="/branding">
-                  <img
-                    src="/assets/services/smile-brand.svg"
-                    className="img-fluid"
-                    style={{ width: "12rem", height: "12rem" }}
-                    alt="Smile brand logo"
-                    width={192}
-                    height={192}
-                  />
-                </Link>
-                <Link to="/seo">
-                  <img
-                    src="/assets/services/seo_opt.svg"
-                    className="img-fluid"
-                    style={{ width: "12rem", height: "12rem" }}
-                    alt="Description of different SEO services offered by Unique You"
-                    width={192}
-                    height={192}
-                  />
-                </Link>
-                <Link to="/workshops">
-                  <img
-                    src="/assets/services/workshop.svg"
-                    className="img-fluid"
-                    style={{ width: "12rem", height: "12rem" }}
-                    alt="Depiction of development workshops being offered by Unique You"
-                    width={192}
-                    height={192}
-                  />
-                </Link>
-              </div>
-              <div id="#" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner mb-5">
-                  <div className="carousel-item active">
-                    <img
-                      src="/assets/services/squarespace-logo-vector.svg"
-                      style={{ width: "12rem", height: "12rem" }}
-                      className="d-block w-100"
-                      alt="Squarespace logo"
-                      width={192}
-                      height={192}
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      src="/assets/services/smile-brand.svg"
-                      style={{ width: "12rem", height: "12rem" }}
-                      className="d-block w-100"
-                      alt="Smile brand logo"
-                      width={192}
-                      height={192}
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      src="/assets/services/seo_opt.svg"
-                      style={{ width: "12rem", height: "12rem" }}
-                      className="d-block w-100"
-                      alt="Description of different SEO services offered by Unique You"
-                      width={192}
-                      height={192}
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      src="/assets/services/workshop.svg"
-                      style={{ width: "12rem", height: "12rem" }}
-                      className="d-block w-100"
-                      alt="Depiction of development workshops being offered by Unique You"
-                      width={192}
-                      height={192}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex flex-wrap justify-content-center">
-                <p className="mt-4 p-4 shadow rounded paragraph-services">
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="/assets/services/seo.svg"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="/assets/services/workshop-2.svg"
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
+        </div>
+        <div className="services-section-2">
+        <p className="p-4 shadow rounded paragraph-services">
                   We offer a host of different services from regular website
                   maintenance and enhancements to one-on-one{" "}
                   <Link to="/workshops" style={{ textDecoration: "none" }}>
@@ -156,17 +95,16 @@ function Services() {
                   along with creating the logo for your brand and ensuring that
                   your business is found within search results such as Google.
                 </p>
+                <div className="button-container">
                 <Link to="/contact">
-                  <button
-                    className="btn btn-outline-primary mt-2"
-                    to="/services"
-                  >
-                    Contact Us
+                  <button className="btn btn-primary mt-2">Contact Us</button>
+                </Link>
+                <Link to="/websites">
+                  <button className="btn btn-primary mt-2 btn-2">
+                    Website Packages
                   </button>
                 </Link>
-              </div>
-            </div>
-          </div>
+                </div>
         </div>
       </div>
     </>
@@ -174,5 +112,3 @@ function Services() {
 }
 
 export default Services;
-
-<a href="https://pngtree.com/so/Network">Network png from pngtree.com/</a>;

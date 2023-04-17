@@ -4,15 +4,13 @@
 
 <!-- ![Insert Image Link Here]() -->
 
-> Currently under development 
 
 <br/>
 
 #### Languages and tools 
 ---
 
-* HTML
-* CSS
-* Javascript
-* React ⚛
+* React JSX ⚛
 * Bootstrap 5
+* Swiper
+* React Helmet
