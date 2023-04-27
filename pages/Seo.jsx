@@ -7,14 +7,14 @@ function Seo() {
   return (
     <>
       <Helmet>
-        <title>SEO | Web Development | New York, NY.</title>
+      <title>Seo services | Increase traffic & visibility to your website</title>
         <meta
           name="description"
           content="Get the most out of your online presence with our keyword research, content optimization, link building, and more. Contact us today to learn more!"
         />
         <meta
           name="keywords"
-          content="SEO, Keyword, Research, Link Building, Ranking, Increase Profits"
+          content="seo agency new york,affordable local seo services,free seo consultation,affordable seo,local seo services,affordable seo company,affordable seo packages,affordable seo services,seo companies near me,seo services,seo services new york,small business seo services,local seo for small business,seo agency near me,search engine marketing,unique seo"
         />
       </Helmet>
       <div className="container-lg my-4 min-vh-100">

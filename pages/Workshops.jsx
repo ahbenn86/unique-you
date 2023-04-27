@@ -6,14 +6,14 @@ function Workshops() {
   return (
     <>
       <Helmet>
-        <title>Workshops | Learn web development | New York, NY.</title>
+        <title>Web development training | Experience our workshop first!</title>
         <meta
           name="description"
           content="Thinking of becoming a developer? Our intimate small-grouped workshops will teach and guide you through the fundamentals of HTML, CSS, and JavaScript."
         />
         <meta
           name="keywords"
-          content="HTML, CSS, JavaScript, Problem-Solving, Error-Handling, Bootcamp, Resume, Online, Workshop"
+          content="unique workshops,web development training,web development course,web development tutorials,web development classes,web development seminar,html workshop,css workshop,javascript workshop,front-end development workshop,back-end development workshop"
         />
       </Helmet>
       <div className="container-lg my-4 min-vh-100">

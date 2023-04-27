@@ -14,7 +14,7 @@ function About() {
         />
         <meta
           name="keywords"
-          content="Website, Development, Design, Branding, Marketing, Workshops"
+          content="unique you,professional website design,branding solutions,responsive web design,digital marketing strategies,seo optimization,user experience design,custom logo design,content management systems,social media integration,mobile app development"
         />
       </Helmet>
       <div className="container min-vh-100">

@@ -12,14 +12,14 @@ function Services() {
   return (
     <>
       <Helmet>
-        <title>Services | Squarespace | Wordpress | SEO | New York, NY.</title>
+      <title>Website services | Branding & development for your business</title>
         <meta
           name="description"
           content="Have your website created by Unique You including your brand and logo design plus SEO practices to have your business found by your favorite search engine."
         />
         <meta
           name="keywords"
-          content="Squarespace, Wordpress, Website, Build, SEO, Logo, Brand, Design, Workshops"
+          content="website development services,website services,web development company,web design services,web development solutions,custom web development,responsive web design,ecommerce website development,web application development,professional web designers,website maintenance services,seo optimized websites,unique website services"
         />
       </Helmet>
       <h1 className="fs-3 fw-light text-center">Our services</h1>

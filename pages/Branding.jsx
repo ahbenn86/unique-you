@@ -7,14 +7,14 @@ function Branding() {
   return (
     <>
       <Helmet>
-        <title>Branding & Logo Design | Web Development | New York, NY.</title>
+      <title>Brand design | Get your unique logo with any of our packages</title>
         <meta
           name="description"
           content="We create unique, memorable logos and branding that help your business stand out from the crowd. Let us help you make a lasting impression."
         />
         <meta
           name="keywords"
-          content="Unique, Logo, Design, Branding, Website, Development"
+          content="logo designer,brand design,2023 logo design,3d logo design,affordable logo design,brand identity designer,brand logo,brand logo design,business logo,commercial logo,company logo design,creative logo design,logo and brand design,logo and branding,logo and website design,logo designer near me,logo ecommerce,medical logo design,squarespace logo,unique logo,unique logo design,restaurant logo design,wellness logo design,massage logo design,medical logo design,hire someone to design logo"
         />
       </Helmet>
       <div className="container-lg my-4 min-vh-100">

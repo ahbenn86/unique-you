@@ -8,7 +8,7 @@ function Work() {
     <>
       <Helmet>
         <title>
-          Our Work | Previous web development projects | New York, NY.
+        <title>Web designs | Examples of our website development projects</title>
         </title>
         <meta
           name="description"
@@ -16,7 +16,7 @@ function Work() {
         />
         <meta
           name="keywords"
-          content="Restaurants, Retail, E-commerce, Unique, Website, Development"
+          content="web designs,web development portfolio,web design portfolio,logo design portfolio,squarespace portfolio,wordpress design portfolio,unique website design,restaurant website design,ecommerce website design,wellness website design"
         />
       </Helmet>
       <div className="bg-light mt-3 page-container">

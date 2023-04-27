@@ -27,17 +27,17 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/services" element={<Services />}></Route>
-          <Route exact path="/our-work" element={<Work />}></Route>
-          <Route exact path="/wordpress" element={<Wordpress />}></Route>
-          <Route exact path="/seo" element={<Seo />}></Route>
-          <Route exact path="/branding" element={<Branding />}></Route>
+          <Route exact path="/website-services" element={<Services />}></Route>
+          <Route exact path="/website-designs" element={<Work />}></Route>
+          <Route exact path="/wordpress-development" element={<Wordpress />}></Route>
+          <Route exact path="/seo-services" element={<Seo />}></Route>
+          <Route exact path="/logo-design" element={<Branding />}></Route>
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/contact" element={<Contact />}></Route>
-          <Route exact path="/workshops" element={<Workshops />}></Route>
+          <Route exact path="/web-development-training" element={<Workshops />}></Route>
           <Route exact path="/success" element={<Success />}></Route>
           <Route exact path="/credits" element={<Credits />}></Route>
-          <Route exact path="/websites" element={<Websites />}></Route>
+          <Route exact path="/website-packages" element={<Websites />}></Route>
         </Routes>
         <Footer/>
       </div>

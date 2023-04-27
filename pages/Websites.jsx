@@ -7,16 +7,14 @@ function Websites() {
   return (
     <>
       <Helmet>
-        <title>
-          Website Development | Packages for start-ups & professionals
-        </title>
+        <title>Website packages | Bundles include web design, seo, and logo</title>
         <meta
           name="description"
           content="We are a development agency offering tailored price packages for start-ups to corporate. Our experienced team will create the perfect website for your business."
         />
         <meta
           name="keywords"
-          content="website development nyc, websites, prices, web developer ny"
+          content="unique website packages,website packages,website plans,website bundles,web design packages,website design packages,web development deals,site building deals,site creation packages,online presence packages,website solutions,website design offers"
         />
       </Helmet>
       <div className="container-fluid mt-5">

@@ -7,16 +7,14 @@ function Wordpress() {
   return (
     <>
       <Helmet>
-        <title>
-          Wordpress and Squarespace | Web Development | New York, NY.
-        </title>
+      <title>WordPress Developer | Get your unique and customized website</title>
         <meta
           name="description"
           content="We can build you a custom WordPress or Squarespace website and teach you how to later change, edit, and add content to your site yourself."
         />
         <meta
           name="keywords"
-          content="Wordpress, Squarespace, Unique, Website, Development"
+          content="wordpress website development,wordpress website development company,wordpress website developer,wordpress website development services,wordpress website design and development,wordpress website developers,wordpress website development agency,squarespace developer,squarespace website designer,wordpress designer,wordpress development services,wordpress website designer,hire wordpress developer,wordpress web designer,unique wordpress,unique squarespace"
         />
       </Helmet>
       <div className="container-lg my-5 min-vh-100 cms-container">
@@ -59,11 +57,7 @@ function Wordpress() {
               to later edit as you see fit. Utilizing the latest plugins and
               templates to deliver a beautifully crafted website with a touch of
               custom flair. We also offer original customization from start to
-              finish to display the{" "}
-              <Link to="/contact" style={{ textDecoration: "none" }}>
-                uniqueness of you
-              </Link>{" "}
-               and your business.
+              finish to display the uniqueness of you and your business.
             </p>
             <Link to="/contact">
               <button className="btn btn-primary mt-2" to="/services">
