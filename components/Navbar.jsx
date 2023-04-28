@@ -17,19 +17,19 @@ function Navbar() {
       </NavLink>
       <ul className="navbar-nav ms-lg-5 mt-2 mb-2 mb-lg-0 container-fluid d-flex">
         <li className="nav-item">
-          <NavLink className="nav-link active" aria-current="page" to="/services" style={{color: "black"}}>Services</NavLink>
+          <NavLink className="nav-link active" aria-current="page" to="/website-services" style={{color: "black"}}>Services</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/our-work" style={{color: "black"}}>Our Work</NavLink>
+          <NavLink className="nav-link" to="/website-designs" style={{color: "black"}}>Our Work</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/wordpress" style={{color: "black"}}>Wordpress</NavLink>
+          <NavLink className="nav-link" to="/wordpress-development" style={{color: "black"}}>Wordpress</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/seo" style={{color: "black"}}>SEO</NavLink>
+          <NavLink className="nav-link" to="/seo-services" style={{color: "black"}}>SEO</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/branding" style={{color: "black"}}>Brand Design</NavLink>
+          <NavLink className="nav-link" to="/logo-design" style={{color: "black"}}>Brand Design</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/contact" style={{color: "black"}}>Contact Us</NavLink>

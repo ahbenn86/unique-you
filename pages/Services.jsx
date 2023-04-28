@@ -72,7 +72,7 @@ function Services() {
         <p className="p-4 shadow rounded paragraph-services">
                   We offer a host of different services from regular website
                   maintenance and enhancements to one-on-one{" "}
-                  <Link to="/workshops" style={{ textDecoration: "none" }}>
+                  <Link to="/web-development-training" style={{ textDecoration: "none" }}>
                     workshops
                   </Link>
                   . We can enhance your current{" "}
@@ -99,7 +99,7 @@ function Services() {
                 <Link to="/contact">
                   <button className="btn btn-primary mt-2">Contact Us</button>
                 </Link>
-                <Link to="/websites">
+                <Link to="/website-packages">
                   <button className="btn btn-primary mt-2 btn-2">
                     Website Packages
                   </button>

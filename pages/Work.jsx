@@ -7,9 +7,7 @@ function Work() {
   return (
     <>
       <Helmet>
-        <title>
         <title>Web designs | Examples of our website development projects</title>
-        </title>
         <meta
           name="description"
           content="View some of our previous projects. From restaurants and retail to e-commerce. We can build, design, or enhance any website for any industry."
@@ -35,7 +33,7 @@ function Work() {
                   </h4>
                   <img
                     src="../assets/card-1.png"
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="A brand logo image for the French restaurant Tournesol. A website project developed by unique you."
                     width={300}
                     height={300}
@@ -62,7 +60,7 @@ function Work() {
                   </h4>
                   <img
                     src="../assets/card-2.png"
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="A brand logo image for a retail store. A website project developed by unique you."
                     width={300}
                     height={300}
@@ -89,7 +87,7 @@ function Work() {
                   </h4>
                   <img
                     src="../assets/card-3.png"
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="A brand logo image for a digital wallet platform titled Checkmate"
                     width={300}
                     height={300}

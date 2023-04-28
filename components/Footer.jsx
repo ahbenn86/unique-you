@@ -23,22 +23,22 @@ function Footer() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/services" aria-current="page">
+            <NavLink to="/website-services" aria-current="page">
               Services
             </NavLink>
           </li>
           <li>
-            <NavLink to="/wordpress" aria-current="page">
+            <NavLink to="/wordpress-development" aria-current="page">
               Wordpress
             </NavLink>
           </li>
           <li>
-            <NavLink to="/seo" aria-current="page">
+            <NavLink to="/seo-services" aria-current="page">
               SEO
             </NavLink>
           </li>
           <li>
-            <NavLink to="/branding" aria-current="page">
+            <NavLink to="/logo-design" aria-current="page">
               Brand Design
             </NavLink>
           </li>
@@ -90,7 +90,7 @@ function Footer() {
           </li>
           <li>
             <NavLink
-              to="/services"
+              to="/website-services"
               aria-current="page"
               className="btn-grp-link ps-2"
             >
@@ -99,7 +99,7 @@ function Footer() {
           </li>
           <li>
             <NavLink
-              to="/wordpress"
+              to="/wordpress-development"
               aria-current="page"
               className="btn-grp-link ps-2"
             >
@@ -108,7 +108,7 @@ function Footer() {
           </li>
           <li>
             <NavLink
-              to="/seo"
+              to="/seo-services"
               aria-current="page"
               className="btn-grp-link ps-2"
             >
@@ -117,7 +117,7 @@ function Footer() {
           </li>
           <li>
             <NavLink
-              to="/branding"
+              to="/logo-design"
               aria-current="page"
               className="btn-grp-link ps-2"
             >
