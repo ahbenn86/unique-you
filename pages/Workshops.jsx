@@ -17,7 +17,11 @@ function Workshops() {
         />
       </Helmet>
       <div className="container-lg my-4 min-vh-100">
-        <h1 className="fs-3 fw-light text-center pb-3 mb-3">Our Workshops</h1>
+        <h1 className="fs-3 fw-light text-center pb-3 mb-3" style={{
+            textDecoration: "underline",
+            textUnderlineOffset: "7px",
+            textDecorationThickness: "1px",
+          }}>Our Workshops</h1>
         <div className="row">
           <div class="col-12 d-flex justify-content-evenly">
             <div>

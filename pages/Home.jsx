@@ -12,7 +12,7 @@ function Home() {
         </title>
         <meta
           name="description"
-          content="We provide website development, branding, logo design & SEO services. Contact us for a free web analysis report."
+          content="We specialize in custom website development, logo design & SEO services. We'll create a unique online presence that will drive traffic and increase visibility."
         />
         <meta
           name="keywords"
@@ -34,19 +34,18 @@ function Home() {
               height={379}
               src="/assets/home/jumping-woman.svg"
               className="img-fluid jumping-woman  mx-5"
-              alt="Excited cartoon woman jumping in the air happy that she found the unique you website"
+              alt="Excited cartoon woman jumping in the air happy that she found the unique you website."
             />
           </div>
           <div className="col-sm-6 d-flex flex-column align-items-center">
-            <h1 className="fs-3 fw-light text-center pb-3">
+            <h1 className="fs-2 fw-light text-center pb-3">
               Welcome to Unique-You!
             </h1>
+            <h2 className="fs-5 fw-light text-center">Excelling your web development and branding needs</h2>
             <p className="mt-4 p-4 shadow rounded paragraph-home">
-              Welcome to{" "}
               <b>
                 <span style={{ color: "red" }}>Unique</span> You
-              </b>
-              . An agency that caters to the uniqueness of you and your business. Behind every
+              </b> is an agency that caters to the uniqueness of you and your business. Behind every
               business, there's a unique individual and your business has
               specific needs and a brand that carries its own unique identity.
               Perhaps you haven't yet found that identity and aren't sure which

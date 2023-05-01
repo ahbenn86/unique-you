@@ -21,7 +21,7 @@ function Work() {
         <div className="container-lg">
           <div className="text-center">
             <h1 className="fs-2 fw-light text-center">
-              View some of our previous projects
+              View some of our previous web designs
             </h1>
           </div>
           <div className="row my-4 align-items-center justify-content-center justify-content-around">
@@ -88,7 +88,7 @@ function Work() {
                   <img
                     src="../assets/card-3.png"
                     className="card-img-top"
-                    alt="A brand logo image for a digital wallet platform titled Checkmate"
+                    alt="A brand logo image for a digital wallet platform titled Checkmate."
                     width={300}
                     height={300}
                   />

@@ -7,7 +7,9 @@ function Branding() {
   return (
     <>
       <Helmet>
-      <title>Brand design | Get your unique logo with any of our packages</title>
+        <title>
+          Brand design | Get your unique logo with any of our packages
+        </title>
         <meta
           name="description"
           content="We create unique, memorable logos and branding that help your business stand out from the crowd. Let us help you make a lasting impression."
@@ -18,14 +20,23 @@ function Branding() {
         />
       </Helmet>
       <div className="container-lg my-4 min-vh-100">
-        <h1 className="fs-3 fw-light text-center pb-3 mb-3">Brand Design</h1>
+        <h1
+          className="fs-4 fw-light text-center pb-3 mb-3"
+          style={{
+            textDecoration: "underline",
+            textUnderlineOffset: "7px",
+            textDecorationThickness: "1px",
+          }}
+        >
+          Brand Design
+        </h1>
         <div className="row">
           <div class="col-12 d-flex justify-content-evenly">
             <div>
               <img
                 className="img-fluid"
                 src="/assets/logos/woman-idea.svg"
-                alt="Woman at unique you having a bright idea on how to design your logo."
+                alt="Cartoon woman having a bright idea on how to design your logo."
                 width={200}
                 height={300}
               />
@@ -42,7 +53,7 @@ function Branding() {
           </div>
         </div>
         <div className="row paragraph-row">
-          <div class="col-12 d-flex flex-wrap justify-content-center">
+          <div class="col-12 d-flex flex-wrap justify-content-center section-2-branding">
             <p className="p-4 shadow rounded paragraph-cms">
               Do you need a logo for your business? Our agency offers
               comprehensive branding and logo design services. We specialize in
@@ -50,13 +61,20 @@ function Branding() {
               business. Our experienced team of designers will work with you to
               develop a logo that reflects your company's values and mission.
               Our goal is to help you create a strong, recognizable brand that
-              stands out from the competition.
+              stands out from the competition. Your own unique logo is included
+              with the purchase of any of our{" "}
+              <Link to="/website-packages" style={{textDecoration: "none"}}>website packages</Link>.
             </p>
             <Link to="/contact">
               <button className="btn btn-primary mt-2" to="/services">
                 Contact Us
               </button>
             </Link>
+            <Link to="/website-packages">
+                  <button className="btn btn-primary mt-2 btn-2">
+                    Website Packages
+                  </button>
+                </Link>
           </div>
         </div>
       </div>

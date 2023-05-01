@@ -53,7 +53,7 @@ function Footer() {
             className="mt-sm-3 "
             style={{ color: "white", fontSize: "smaller" }}
           >
-            Unique You © ™ 2023
+            Unique-You © ™ 2023
           </span>
           <Link to="/credits" className="credits ">
             <span>
@@ -75,6 +75,8 @@ function Footer() {
           className="btn btn-secondary dropdown-toggle"
           data-bs-toggle="dropdown"
           aria-expanded="false"
+          aria-label="footer navigation"
+
         >
           <img src="/assets/footer/footer-symbol-2.svg" alt="" width={18} height={18}/>
         </button>

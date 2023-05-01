@@ -18,13 +18,13 @@ function About() {
         />
       </Helmet>
       <div className="container min-vh-100">
-        <h1 className="fs-3 fw-light text-center">About Us</h1>
+        <h1 className="fs-3 fw-light text-center" style={{textDecoration: "underline", textUnderlineOffset: "5px", textDecorationThickness: "1px"}}>About Us</h1>
         <div className="row d-flex justify-content-center flex-lg-row flex-sm-column align-items-center about-section">
           <div className="col-md-6 mb-5">
             <img
               src="/assets/about-us_opt.svg"
               className="img-fluid ms-sm-2"
-              alt="Depiction of the unique you team ready to assist you with all your web development and branding needs."
+              alt="Cartoon depiction of the unique you team ready to assist you with all your web development and branding needs."
               width={332}
               height={248}
             />

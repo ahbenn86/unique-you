@@ -22,14 +22,14 @@ function Services() {
           content="website development services,website services,web development company,web design services,web development solutions,custom web development,responsive web design,ecommerce website development,web application development,professional web designers,website maintenance services,seo optimized websites,unique website services"
         />
       </Helmet>
-      <h1 className="fs-3 fw-light text-center">Our services</h1>
+      <h1 className="fs-3 fw-light text-center" style={{textDecoration: "underline", textUnderlineOffset: "5px", textDecorationThickness: "1px"}}>Website Services</h1>
       <div className="services-container">
         <div className="services-section-1">
         <img
           src="/assets/services/services.gif"
           style={{ width: "20rem", height: "15rem" }}
           className="img-fluid services-gif"
-          alt=""
+          alt="Agency professionals completing different services for your website."
         />
         <div>
           <Swiper
@@ -48,21 +48,25 @@ function Services() {
             <SwiperSlide>
               <img
                 src="/assets/services/wordpress-logo.svg"
+                alt="Wordpress logo"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 src="/assets/services/smile-logo.svg"
+                alt="A logo design by Unique You."
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 src="/assets/services/seo.svg"
+                alt="All the different components of seo services."
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 src="/assets/services/workshop-2.svg"
+                alt="Woman participating in a unique you workshop for web development training."
               />
             </SwiperSlide>
           </Swiper>

@@ -3,4 +3,10 @@
   margin-top: 6rem !important;
 }
 
-
+@media (max-width: 500px) {
+  .section-2-wordpress {
+     display: flex !important;
+     flex-direction: column !important;
+     align-items: center !important;
+  }
+}

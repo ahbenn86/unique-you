@@ -24,7 +24,7 @@ function Websites() {
             <img
               src="/assets/start-up.svg"
               className="card-img-top"
-              alt="..."
+              alt="Cartoon team deciding how to launch their start-up."
             />
             <div className="card-body">
               <h5 className="card-title">Start-Up $1,500</h5>
@@ -43,7 +43,7 @@ function Websites() {
             <img
               src="/assets/semi-pro.svg"
               className="card-img-top"
-              alt="..."
+              alt="Cartoon team launching their start-up."
             />
             <div className="card-body">
               <h5 className="card-title">Semi-Pro $3,000</h5>
@@ -62,7 +62,7 @@ function Websites() {
             <img
               src="/assets/professional.svg"
               className="card-img-top"
-              alt="..."
+              alt="Professional cartoon team discussing analytics and business decisions."
             />
             <div className="card-body">
               <h5 className="card-title">Professional $5,000</h5>
