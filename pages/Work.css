@@ -5,3 +5,16 @@
         margin-bottom: 1.5rem;
     }
 }
+
+@media (max-width: 800px) and (min-width: 500px){
+    .card {
+        width: calc(100% - 30%);
+        height: calc(100% - 30%);
+    }
+
+    .card-col {
+       display: flex !important;
+       align-items: center !important;
+       justify-content: center !important;
+    }
+}

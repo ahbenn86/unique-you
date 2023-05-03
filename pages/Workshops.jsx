@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import './Workshops.css';
 
 function Workshops() {
   return (
@@ -23,11 +24,12 @@ function Workshops() {
             textDecorationThickness: "1px",
           }}>Our Workshops</h1>
         <div className="row">
-          <div class="col-12 d-flex justify-content-evenly">
-            <div>
-              <video
+          <div class="col-12 d-flex justify-content-evenly">       
+              <video autoPlay loop muted
+              src="/assets/online-learning.mp4"
+              style={{width: "500px", height: "280px"}}
+              alt="Woman taking part in unique you online learning web development workshop"
               ></video>
-            </div>
           </div>
         </div>
         <div className="row paragraph-row">
@@ -42,7 +44,9 @@ function Workshops() {
               problem-solving and error handling. By the end of this workshop,
               you will have built an entire project using all 3 languages which
               you can then present to your future Bootcamp, add to a resume or
-              just show off to your friends and family. Contact us to
+              just show off to your friends and family. <Link to="/contact" style={{ textDecoration: "none" }}>
+                Contact us
+              </Link> to
               receive the full workshop breakdown of topics covered along with our 
               workshop newsletter.
             </p>

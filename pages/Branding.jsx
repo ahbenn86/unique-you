@@ -19,9 +19,9 @@ function Branding() {
           content="logo designer,brand design,2023 logo design,3d logo design,affordable logo design,brand identity designer,brand logo,brand logo design,business logo,commercial logo,company logo design,creative logo design,logo and brand design,logo and branding,logo and website design,logo designer near me,logo ecommerce,medical logo design,squarespace logo,unique logo,unique logo design,restaurant logo design,wellness logo design,massage logo design,medical logo design,hire someone to design logo"
         />
       </Helmet>
-      <div className="container-lg my-4 min-vh-100">
+      <div className="container-lg min-vh-100">
         <h1
-          className="fs-4 fw-light text-center pb-3 mb-3"
+          className="fs-4 fw-light text-center pb-3 mb-3 h1-brand"
           style={{
             textDecoration: "underline",
             textUnderlineOffset: "7px",
@@ -35,19 +35,19 @@ function Branding() {
             <div>
               <img
                 className="img-fluid"
-                src="/assets/logos/woman-idea.svg"
+                src="/assets/branding/woman-idea-2.svg"
                 alt="Cartoon woman having a bright idea on how to design your logo."
-                width={200}
-                height={300}
+                width={180}
+                height={280}
               />
             </div>
             <div>
               <img
                 className="img-fluid"
-                src="/assets/logos/bugsy-logo_3.png"
+                src="/assets/branding/bugsy-logo.png"
                 alt="An example of a unique you brand and logo design."
-                width={500}
-                height={246}
+                width={400}
+                height={146}
               />
             </div>
           </div>

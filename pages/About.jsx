@@ -22,7 +22,7 @@ function About() {
         <div className="row d-flex justify-content-center flex-lg-row flex-sm-column align-items-center about-section">
           <div className="col-md-6 mb-5">
             <img
-              src="/assets/about-us_opt.svg"
+              src="/assets/about-us.svg"
               className="img-fluid ms-sm-2"
               alt="Cartoon depiction of the unique you team ready to assist you with all your web development and branding needs."
               width={332}

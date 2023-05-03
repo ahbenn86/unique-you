@@ -26,7 +26,7 @@ function Services() {
       <div className="services-container">
         <div className="services-section-1">
         <img
-          src="/assets/services/services.gif"
+          src="/assets/services/services-2.gif"
           style={{ width: "20rem", height: "15rem" }}
           className="img-fluid services-gif"
           alt="Agency professionals completing different services for your website."
@@ -47,25 +47,25 @@ function Services() {
           >
             <SwiperSlide>
               <img
-                src="/assets/services/wordpress-logo.svg"
+                src="/assets/services/wordpress-logo-2.svg"
                 alt="Wordpress logo"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/assets/services/smile-logo.svg"
+                src="/assets/services/smile-logo-2.svg"
                 alt="A logo design by Unique You."
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/assets/services/seo.svg"
+                src="/assets/services/seo-2.svg"
                 alt="All the different components of seo services."
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/assets/services/workshop-2.svg"
+                src="/assets/services/workshop-3.svg"
                 alt="Woman participating in a unique you workshop for web development training."
               />
             </SwiperSlide>

@@ -7,13 +7,13 @@ function Navbar() {
     <>
          <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
           <div className="container-fluid d-flex flex-lg-column justify-content-evenly">
-            <img width={950} height={115} src="/assets/header/header-image.svg" className="img-fluid header-image" alt="unique you header logo" id='header-logo'/>
+            <img width={950} height={115} src="/assets/header/header-image-2.svg" className="img-fluid header-image" alt="unique you header logo" id='header-logo'/>
               <button className="navbar-toggler" id="toggler-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <NavLink to="/">
-      <i className="fa-solid fa-house font-home-ico"></i>
+      <i className="fa-solid fa-house font-home-ico" role="home page button"></i>
       </NavLink>
       <ul className="navbar-nav ms-lg-5 mt-2 mb-2 mb-lg-0 container-fluid d-flex">
         <li className="nav-item">

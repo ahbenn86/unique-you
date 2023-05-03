@@ -35,7 +35,7 @@ function Seo() {
             <div>
               <img
                 className="img-fluid seo-guy"
-                src="/assets/seo/SEO-guy.svg"
+                src="/assets/seo/seo-guy-2.svg"
                 alt="Cartoon man pointing up in the direction that your website traffic will climb."
                 width={214}
                 height={223}
@@ -44,7 +44,7 @@ function Seo() {
             <div>
               <img
                 className="img-fluid seo-gif"
-                src="/assets/seo/SEO.gif"
+                src="/assets/seo/seo-2.gif"
                 alt="Animation of working services."
                 width={500}
                 height={342}

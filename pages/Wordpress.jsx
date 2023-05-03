@@ -35,7 +35,7 @@ function Wordpress() {
             <div>
               <img
                 className="img-fluid"
-                src="/assets/wordpress-logo.svg"
+                src="/assets/wordpress/wordpress-logo.png"
                 alt="wordpress logo"
                 width={350}
                 height={197}
@@ -44,7 +44,7 @@ function Wordpress() {
             <div>
               <img
                 className="img-fluid"
-                src="/assets/cms-business-woman.png"
+                src="/assets/wordpress/business-woman.png"
                 alt="Woman showing you the different cms options of wordpress or squarespace."
                 width={140}
                 height={272}
@@ -53,7 +53,7 @@ function Wordpress() {
             <div>
               <img
                 className="img-fluid"
-                src="/assets/Squarespace-Logo.svg"
+                src="/assets/wordpress/squarespace-Logo.png"
                 alt="squarespace logo"
                 width={340}
                 height={192}

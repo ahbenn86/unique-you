@@ -25,14 +25,14 @@ function Work() {
             </h1>
           </div>
           <div className="row my-4 align-items-center justify-content-center justify-content-around">
-            <div className="col-8 col-lg-4 col-xl-3 mb-sm-5 mb-lg-0">
+            <div className="col-8 col-lg-4 col-xl-3 mb-sm-5 mb-lg-0 card-col">
               <div className="card">
                 <div className="card-body text-center py-4">
                   <h4 className="card-title" style={{ color: "black" }}>
                     Tournesol
                   </h4>
                   <img
-                    src="../assets/card-1.png"
+                    src="../assets/work/card-1_2.png"
                     className="card-img-top"
                     alt="A brand logo image for the French restaurant Tournesol. A website project developed by unique you."
                     width={300}
@@ -52,14 +52,14 @@ function Work() {
                 </div>
               </div>
             </div>
-            <div className="col-8 col-lg-4 col-xl-3 mb-sm-5 mb-lg-0">
+            <div className="col-8 col-lg-4 col-xl-3 mb-sm-5 mb-lg-0 card-col">
               <div className="card">
                 <div className="card-body text-center py-4">
                   <h4 className="card-title" style={{ color: "black" }}>
                     Electric City
                   </h4>
                   <img
-                    src="../assets/card-2.png"
+                    src="../assets/work/card-2_2.png"
                     className="card-img-top"
                     alt="A brand logo image for a retail store. A website project developed by unique you."
                     width={300}
@@ -79,14 +79,14 @@ function Work() {
                 </div>
               </div>
             </div>
-            <div className="col-8 col-lg-4 col-xl-3 mb-sm-5 mb-lg-0">
+            <div className="col-8 col-lg-4 col-xl-3 mb-sm-5 mb-lg-0 card-col">
               <div className="card">
                 <div className="card-body text-center py-4">
                   <h4 className="card-title" style={{ color: "black" }}>
                     Checkmate
                   </h4>
                   <img
-                    src="../assets/card-3.png"
+                    src="../assets/work/card-3_2.png"
                     className="card-img-top"
                     alt="A brand logo image for a digital wallet platform titled Checkmate."
                     width={300}
