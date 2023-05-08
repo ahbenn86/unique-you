@@ -86,9 +86,9 @@ function Seo() {
               href="https://angelounique-you-us-uni-key.mdbgo.io/"
               target="_blank"
             >
-              <button className="btn mt-2 ms-3 bg-danger text-white seo-btn">
+              {/* <button className="btn mt-2 ms-3 bg-danger text-white seo-btn">
                 See our Keyword Extractor
-              </button>
+              </button> */}
             </a>
           </div>
         </div>

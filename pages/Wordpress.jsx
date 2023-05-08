@@ -53,7 +53,7 @@ function Wordpress() {
             <div>
               <img
                 className="img-fluid"
-                src="/assets/wordpress/squarespace-Logo.png"
+                src="/assets/wordpress/squarespace-logo.png"
                 alt="squarespace logo"
                 width={340}
                 height={192}
