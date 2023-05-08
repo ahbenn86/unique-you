@@ -2,6 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import "./Seo.css";
+import SeoCharacter from '/assets/seo/seo-guy-2.svg'
+import SeoGif from '/assets/seo/seo-2.gif'
 
 function Seo() {
   return (
@@ -35,7 +37,7 @@ function Seo() {
             <div>
               <img
                 className="img-fluid seo-guy"
-                src="/assets/seo/seo-guy-2.svg"
+                src={SeoCharacter}
                 alt="Cartoon man pointing up in the direction that your website traffic will climb."
                 width={214}
                 height={223}
@@ -44,7 +46,7 @@ function Seo() {
             <div>
               <img
                 className="img-fluid seo-gif"
-                src="/assets/seo/seo-2.gif"
+                src={SeoGif}
                 alt="Animation of working services."
                 width={500}
                 height={342}

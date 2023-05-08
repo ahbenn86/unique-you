@@ -1,6 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import BrandingCharacter from '/assets/branding/woman-idea-2.svg'
+import BrandingLogo from '/assets/branding/bugsy-logo.png'
 import "./Branding.css";
 
 function Branding() {
@@ -35,7 +37,7 @@ function Branding() {
             <div>
               <img
                 className="img-fluid"
-                src="/assets/branding/woman-idea-2.svg"
+                src={BrandingCharacter}
                 alt="Cartoon woman having a bright idea on how to design your logo."
                 width={180}
                 height={280}
@@ -44,7 +46,7 @@ function Branding() {
             <div>
               <img
                 className="img-fluid"
-                src="/assets/branding/bugsy-logo.png"
+                src={BrandingLogo}
                 alt="An example of a unique you brand and logo design."
                 width={400}
                 height={146}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import WorkshopVideo from '/assets/online-learning.mp4'
 import './Workshops.css';
 
 function Workshops() {
@@ -26,7 +27,7 @@ function Workshops() {
         <div className="row">
           <div class="col-12 d-flex justify-content-evenly">       
               <video autoPlay loop muted
-              src="/assets/online-learning.mp4"
+              src={WorkshopVideo}
               style={{width: "500px", height: "280px"}}
               alt="Woman taking part in unique you online learning web development workshop"
               ></video>

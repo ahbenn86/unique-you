@@ -1,6 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import StartUp from '/assets/websites/start-up-2.png'
+import SemiPro from '/assets/websites/semi-pro-2.png'
+import Professional from '/assets/websites/professional-2.png'
 import "./Websites.css";
 
 function Websites() {
@@ -33,7 +36,7 @@ function Websites() {
         <div className="container d-flex flex-lg-row flex-sm-column justify-content-evenly align-items-sm-center align-items-lg-stretch package-container">
           <div className="card mb-sm-4 package-card" style={{ width: "18rem" }}>
             <img
-              src="/assets/websites/start-up-2.png"
+              src={StartUp}
               className="card-img-top"
               alt="Cartoon team deciding how to launch their start-up."
               width={280}
@@ -56,7 +59,7 @@ function Websites() {
           </div>
           <div className="card mb-sm-4 package-card" style={{ width: "18rem" }}>
             <img
-              src="/assets/websites/semi-pro-2.png"
+              src={SemiPro}
               className="card-img-top"
               alt="Cartoon team launching their start-up."
               width={280}
@@ -79,7 +82,7 @@ function Websites() {
           </div>
           <div className="card mb-sm-4 package-card" style={{ width: "18rem" }}>
             <img
-              src="/assets/websites/professional-2.png"
+              src={Professional}
               className="card-img-top"
               alt="Professional cartoon team discussing analytics and business decisions."
               width={280}

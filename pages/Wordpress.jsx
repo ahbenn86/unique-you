@@ -2,6 +2,9 @@ import React from "react";
 import "./Wordpress.css";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import WordpressLogo from '/assets/wordpress/wordpress-logo.png'
+import WordpressCharacter from '/assets/wordpress/business-woman.png'
+import SquarespaceLogo from '/assets/wordpress/squarespace-logo.png'
 
 function Wordpress() {
   return (
@@ -35,7 +38,7 @@ function Wordpress() {
             <div>
               <img
                 className="img-fluid"
-                src="/assets/wordpress/wordpress-logo.png"
+                src={WordpressLogo}
                 alt="wordpress logo"
                 width={350}
                 height={197}
@@ -44,7 +47,7 @@ function Wordpress() {
             <div>
               <img
                 className="img-fluid"
-                src="/assets/wordpress/business-woman.png"
+                src={WordpressCharacter}
                 alt="Woman showing you the different cms options of wordpress or squarespace."
                 width={140}
                 height={272}
@@ -53,7 +56,7 @@ function Wordpress() {
             <div>
               <img
                 className="img-fluid"
-                src="/assets/wordpress/squarespace-logo.png"
+                src={SquarespaceLogo}
                 alt="squarespace logo"
                 width={340}
                 height={192}

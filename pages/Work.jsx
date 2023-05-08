@@ -2,6 +2,9 @@ import React from "react";
 import "./Work.css";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import CardOne from '/assets/work/card-1_2.png'
+import CardTwo from '/assets/work/card-2_2.png'
+import CardThree from '/assets/work/card-3_2.png'
 
 function Work() {
   return (
@@ -32,7 +35,7 @@ function Work() {
                     Tournesol
                   </h4>
                   <img
-                    src="../assets/work/card-1_2.png"
+                    src={CardOne}
                     className="card-img-top"
                     alt="A brand logo image for the French restaurant Tournesol. A website project developed by unique you."
                     width={300}
@@ -59,7 +62,7 @@ function Work() {
                     Electric City
                   </h4>
                   <img
-                    src="../assets/work/card-2_2.png"
+                    src={CardTwo}
                     className="card-img-top"
                     alt="A brand logo image for a retail store. A website project developed by unique you."
                     width={300}
@@ -86,7 +89,7 @@ function Work() {
                     Checkmate
                   </h4>
                   <img
-                    src="../assets/work/card-3_2.png"
+                    src={CardThree}
                     className="card-img-top"
                     alt="A brand logo image for a digital wallet platform titled Checkmate."
                     width={300}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import AboutImg from '/assets/about-us.svg'
 import "./About.css";
 
 function About() {
@@ -22,7 +23,7 @@ function About() {
         <div className="row d-flex justify-content-center flex-lg-row flex-sm-column align-items-center about-section">
           <div className="col-md-6 mb-5">
             <img
-              src="/assets/about-us.svg"
+              src={AboutImg}
               className="img-fluid ms-sm-2"
               alt="Cartoon depiction of the unique you team ready to assist you with all your web development and branding needs."
               width={332}

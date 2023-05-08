@@ -7,6 +7,11 @@ import { EffectCube, Pagination } from "swiper";
 import "./Services.css";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import ServicesGif from '/assets/services/services-2.gif'
+import WordpressImg from '/assets/services/wordpress-logo-2.svg'
+import SmileLogo from '/assets/services/smile-logo-2.svg'
+import SeoImg from '/assets/services/seo-2.svg'
+import WorkshopImg from '/assets/services/workshop-3.svg'
 
 function Services() {
   return (
@@ -26,7 +31,7 @@ function Services() {
       <div className="services-container">
         <div className="services-section-1">
         <img
-          src="/assets/services/services-2.gif"
+          src={ServicesGif}
           style={{ width: "20rem", height: "15rem" }}
           className="img-fluid services-gif"
           alt="Agency professionals completing different services for your website."
@@ -47,25 +52,25 @@ function Services() {
           >
             <SwiperSlide>
               <img
-                src="/assets/services/wordpress-logo-2.svg"
+                src={WordpressImg}
                 alt="Wordpress logo"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/assets/services/smile-logo-2.svg"
+                src={SmileLogo}
                 alt="A logo design by Unique You."
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/assets/services/seo-2.svg"
+                src={SeoImg}
                 alt="All the different components of seo services."
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/assets/services/workshop-3.svg"
+                src={WorkshopImg}
                 alt="Woman participating in a unique you workshop for web development training."
               />
             </SwiperSlide>
