@@ -23,7 +23,7 @@ function Work() {
       <div className="bg-light mt-3 page-container">
         <div className="container-lg">
           <div className="text-center">
-            <h1 className="fs-2 fw-light text-center">
+            <h1 className="fs-2 fw-light text-center work-header">
               View some of our previous web designs
             </h1>
           </div>

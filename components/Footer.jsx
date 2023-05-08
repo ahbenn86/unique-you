@@ -1,6 +1,7 @@
 import React from "react";
 import FooterLogo from '/assets/footer/small-logo.svg'
 import FooterSym from '/assets/footer/footer-symbol.svg'
+import FooterSym2 from '/assets/footer/footer-symbol-2.svg'
 import { Link, NavLink } from "react-router-dom";
 import "./Footer.css";
 
@@ -80,7 +81,7 @@ function Footer() {
           aria-label="footer navigation"
 
         >
-          <img src="/assets/footer/footer-symbol-2.svg" alt="" width={18} height={18}/>
+          <img src={FooterSym2} alt="" width={18} height={18}/>
         </button>
         <ul className="dropdown-menu">
           <li>
