@@ -1,4 +1,5 @@
 import React from "react";
+import SuccessImg from '/assets/success-2.png'
 
 function Success() {
   return (
@@ -7,7 +8,7 @@ function Success() {
         <div className="row d-flex align-items-center">
           <div className="col-md-6">
             <img
-              src="/assets/success-2.png"
+              src={SuccessImg}
               className="img-fluid"
               style={{ height: "25rem", width: "25rem" }}
               alt="Happy and cheerful successful business team"

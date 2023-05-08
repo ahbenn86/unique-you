@@ -1,5 +1,10 @@
 
 
+@media (max-width: 500px){
+    .work-header {
+      font-size: 1.3rem !important;
+    }
+}
 @media (max-width: 650px){
     .card {
         margin-bottom: 1.5rem;
