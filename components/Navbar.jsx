@@ -1,5 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+import HeaderImage from '/assets/header/header-image-2.svg'
 import '/components/Navbar.css'
 
 function Navbar() {
@@ -7,7 +8,7 @@ function Navbar() {
     <>
          <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
           <div className="container-fluid d-flex flex-lg-column justify-content-evenly">
-            <img width={950} height={115} src="/assets/header/header-image-2.svg" className="img-fluid header-image" alt="unique you header logo" id='header-logo'/>
+            <img width={950} height={115} src={HeaderImage} className="img-fluid header-image" alt="unique you header logo" id='header-logo'/>
               <button className="navbar-toggler" id="toggler-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>

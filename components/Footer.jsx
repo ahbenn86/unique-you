@@ -1,4 +1,6 @@
 import React from "react";
+import FooterLogo from '/assets/footer/small-logo.svg'
+import FooterSym from '/assets/footer/footer-symbol.svg'
 import { Link, NavLink } from "react-router-dom";
 import "./Footer.css";
 
@@ -12,7 +14,7 @@ function Footer() {
         width={73}
         height={65}
         className="image-fluid small-logo"
-        src="/assets/footer/small-logo.svg"
+        src={FooterLogo}
         alt="#"
       />
       <div className="container-fluid d-flex flex-md-column align-items-center">
@@ -64,7 +66,7 @@ function Footer() {
       </div>
       <img
         className="image-fluid footer-symbol"
-        src="/assets/footer/footer-symbol.svg"
+        src={FooterSym}
         alt="#"
         width={58} 
         height={62}

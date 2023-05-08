@@ -1,5 +1,7 @@
 import "./Home.css";
 import React from "react";
+import RedSquare from '/assets/home/red-cmp-square-1.svg'
+import HomeCharacter from '/assets/home/jumping-woman.svg'
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
@@ -25,14 +27,14 @@ function Home() {
             <img
               width={327}
               height={312}
-              src="/assets/home/red-cmp-square-1.svg"
+              src={RedSquare}
               className="img-fluid  red-square my-5"
               alt=""
             />
             <img
               width={227}
               height={379}
-              src="/assets/home/jumping-woman.svg"
+              src={HomeCharacter}
               className="img-fluid jumping-woman  mx-5"
               alt="Excited cartoon woman jumping in the air happy that she found the unique you website."
             />
