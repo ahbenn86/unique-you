@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://unique-you.us/sitemap.xml
+Sitemap: https://unique-you.us/public/sitemap.xml

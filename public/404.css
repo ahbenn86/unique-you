@@ -1,0 +1,42 @@
+html {
+  background-image: url("/custom-404.png");
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  background-position: top;
+ 
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 3rem;
+}
+
+a {
+  font-size: 2rem;
+  color: blue;
+}
+
+@media (max-width: 1100px) {
+  html {
+    background-size: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    background-size: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    background-size: 100%;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+}

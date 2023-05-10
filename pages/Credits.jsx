@@ -39,6 +39,7 @@ function Credits() {
           <a href="https://pngtree.com/so/boost">boost png from pngtree.com</a>
         </div>
         <div><a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-business-communication-concept_20548463.htm#query=corporate%20illustration&position=4&from_view=search&track=ais">Image by pikisuperstar</a> on Freepik</div>
+        <div><a href="https://www.freepik.com/free-vector/decision-fatigue-concept-illustration_24488359.htm#query=lost&position=0&from_view=search&track=sph#position=0&query=lost">Image by storyset</a> on Freepik on Freepik</div>
       </div>
     </>
   );
