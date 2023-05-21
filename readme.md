@@ -1,7 +1,7 @@
 # Unique-You 
 ### Branding & Development.  
 <br/>
-<a href="https://unique-you.us/">Unique You</a>
+<a href="https://unique-you.us/">Unique-You</a>
 <!-- ![Insert Image Link Here]() -->
 
 
